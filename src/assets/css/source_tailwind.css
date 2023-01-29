@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './components/category.css';
+
+
+/* Share class | Componenets */
+.flex-center {
+    @apply justify-center items-center
+}
+
+/* I think this is a New class refactor from flex-center to center */
+.center {
+    @apply flex justify-center items-center
+}
+
+.wh-full {
+    @apply w-full h-full
+}
+
+
+/* Tailwind Modules */
+.App {
+    @apply bg-blue-50 flex flex-center w-full h-screen overflow-hidden
+}
+
+.container-main {
+    @apply h-[90%] w-[90%] mx-auto gap-1 grid grid-cols-[20rem_1fr] grid-rows-[6rem_1fr] 
+}
+
+.container-sidebar {
+    @apply bg-white h-full rounded-l-3xl shadow-md rounded-sm row-span-2 
+}
+
+.container-navbar {
+    @apply bg-white h-full rounded-tr-3xl shadow-md rounded-sm 
+}
+
+.container-content {
+    @apply bg-white h-full rounded-br-3xl shadow-md rounded-sm 
+}
+

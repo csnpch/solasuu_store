@@ -1,0 +1,31 @@
+@import './tailwind.css';
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+/* Should use classname .font_kanit but i think this project just need some font not serious */
+* {
+    font-family: 'Kanit', sans-serif !important;
+}
+
+
+/* Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+	width: 4px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(198, 198, 198); 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(139, 139, 139); 
+}
