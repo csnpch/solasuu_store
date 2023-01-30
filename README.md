@@ -2,7 +2,7 @@
 
 
 <br />
-Thanks for fake API store : https://api.storerestapi.com
+Thanks for fake API store : [https://api.storerestapi.com](https://storerestapi.com/)
 <br />
 <br />
 
