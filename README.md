@@ -1,4 +1,4 @@
-##Example : https://solasuu-store.netlify.app
+<h3>Example : <a href="https://solasuu-store.netlify.app" target="_blank">https://solasuu-store.netlify.app</a></h3>
 
 <br />
 <img src="https://menhouse.net/img/ib/l4twTmoaOM.png" alt="l4twTmoaOM"/>
